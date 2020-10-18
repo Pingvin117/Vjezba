@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+  }
+header {
+    background-color:black;
+    padding: 15px;
+    text-align: center;
+    color:orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+  }
+nav {
+    top: 0; 
+    position: fixed;
+    width: 10%;
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+    height: 100%;
+  }
+article {
+    float: right;
+    padding: 20px;
+    width: 90%;
+    color: black;
+  }
+.lista{
+    position: relative;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:orangered;
+    list-style-type: none;
+    }
+li a{
+    text-decoration: none;
+    display: block;
+    color: orangered;
+    padding: 10px;
+    }
+li a:hover{
+    background-color:black;
+}
+.split{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: blue;
+    margin: auto;
+    background-color: white;
+}
+.zagreb{
+    font-family: monospace;
+    font-size: 12pt;
+    color: black;
+    margin: auto;
+    background-color: white;
+}
+.dubrovnik{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+    margin: auto;
+    background-color: white;
+}
